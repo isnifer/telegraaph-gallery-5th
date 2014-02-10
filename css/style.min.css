@@ -2,4 +2,7 @@
 .g-clf:after,.g-clf:before{clear:both;display:table;content:""}
 html,body{height:100%;font:normal 16px "Arial",Verdana,Tahoma}
 .b-page{position:relative;min-height:100%}
-.photo{display:block}
+.photo-grid{margin:0;padding:0;list-style:none;width:880px;font-size:0}
+.photo{display:inline-block;width:220px;padding:0 10px;overflow:hidden;text-align:center;font-size:16px;margin-bottom:10px}
+.photo-link{display:block;text-decoration:none;color:#b4aca7}
+.photo-img{display:block;margin:0 auto 5px;max-width:100%}

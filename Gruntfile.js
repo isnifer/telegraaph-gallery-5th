@@ -5,14 +5,6 @@ module.exports = function (grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         watch: {
-            scripts: {
-                files: ['**/*.js'],
-                tasks: ['jshint'],
-                options: {
-                    interrupt: true
-                }
-            },
-
             livereload: {
                 options: {
                     livereload: true,
@@ -81,7 +73,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-stylus');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-ftp-deploy');
 
     // Our tasks
