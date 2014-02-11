@@ -6,4 +6,4 @@
 - the spacing between rows is always 10px. Because of the previous rule, rows can thus have unequal height.
 - Photo’s & title are aligned in the center of the column, the title is 5px below the photo ○ the HTML is automatically generated & minified (all superfluous whitespace is removed) with Smarty.
 
-**[Demo](http://kuznetsovanton.ru/projects/telegraaph/5/)**
+##[Demo](http://kuznetsovanton.ru/projects/telegraaph/5/)##
